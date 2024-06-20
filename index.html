@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paideia - Online Learning</title>
+    <meta name="description" content="Main page of the Paideia website specialized in online learning">
+    <meta name="author" content="Edurne Marco García">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+</head>
+<body>
+    <a class="sr" href="#main">SKIP TO MAIN CONTENT</a>
+    <header>
+        <div class="contacto">
+            <div class="content">
+                <div class="datos-contacto">
+                    <div class="telefono">
+                        <a href="tel:(00)2428443988">(00) 242 844 39 88</a>
+                    </div>
+                    <div class="email">
+                        <a href=mailto:info@paideia.edu>info@paideia.edu</a>
+                    </div>
+                </div>
+                <div class="redes-sociales">
+                    <a href="https://www.facebook.com/paideia" target="_blank"><img src="img/facebook.svg" alt="Link to Facebook" style="width:15px;height:15px;"></a>
+                    <a href="https://www.instagram.com/@paideia" target="_blank"><img src="img/instagram.svg" alt="Link to Instagram" style="width:15px;height:15px;"></a>
+                    <a href=" https://www.linkedin.com/paideia" target="_blank"><img src="img/linkedin.svg" alt="Link to Linkedin" style="width:15px;height:15px;"></a>
+                </div>
+            </div>
+        </div>
+        <div class="content">  
+            <div class="logo-menu">
+                <a href="index.html"><img src="img/logo-paideia.svg" height="100" width="150" alt="logotipo Paideia que redirigue a la página principal"></a>
+                <input aria-hidden="true" type="checkbox" id="menustate">
+                <nav>
+                    <label for="menustate" aria-hidden="true">
+                        <span class="open" title="open menu">
+                            <a role="button" class="open" href="#menustate">
+                                <span></span>
+                            </a>
+                            <svg width="24px" height="24px" viewBox="0 0 24 24" focusable="false" fill="white">
+                                <path d="M21 11h-18c-0.6 0-1 0.4-1 1s0.4 1 1 1h18c0.6 0 1-0.4 1-1s-0.4-1-1-1z"></path>
+                                <path d="M3 7h18c0.6 0 1-0.4 1-1s-0.4-1-1-1h-18c-0.6 0-1 0.4-1 1s0.4 1 1 1z"></path>
+                                <path d="M21 17h-18c-0.6 0-1 0.4-1 1s0.4 1 1 1h18c0.6 0 1-0.4 1-1s-0.4-1-1-1z"></path>
+                            </svg>    
+                        </span>
+                        <span class="close" title="close menu">X</span>
+                        <a role="button" class="close" href="#">
+                            <span></span>
+                        </a>
+                    </label>
+                    <ul>
+                        <li class="current"><a href="index.html">Home</a></li>
+                        <li class="menu"><a href="#">Search courses</a></li>
+                        <li class="menu"><a href="become-an-instructor.html">Become an Instructor</a></li>
+                        <li class="menu"><a href="contact.html">Contact</a></li>   
+                        <li class="menu"><a href="#">Log in</a></li>
+                        <li class="sign"><a href="#">Sign up</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-elements">
+                <div class="header-top">
+                    <h1>Learn your way with Paideia to <span>Online Learning</span></h1>
+                    <p>More than 100,000 online courses</p>
+                    <div>
+                        <div class="recuadro-busqueda">
+                            <p>What do you want to learn today?</p>
+                            <button type="submit">Search</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="elemento1">
+                        <img src="img/online-training.svg" alt="" aria-hidden="true" width="50" height="50">
+                        <p class="headline">100,000 Online Courses</p>
+                        <p>Explore a variety of fresh topics</p>
+                    </div>
+                    <div class="elemento2">
+                        <img src="img/teacher.svg" alt="" aria-hidden="true" width="50" height="50">
+                        <p class="headline">Expert Instruction</p>
+                        <p>Find the right instructor for you</p>
+                    </div>
+                    <div class="elemento3">
+                        <img src="img/access.svg" alt="" aria-hidden="true" width="50" height="50">
+                        <p class="headline">Lifetime Access</p>
+                        <p>Learn on your schedule</p>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </header>
+    <main id="main">
+        <section class="content">
+            <h2> Our most popular courses</h2>
+            <p> These are the top 8 courses this month.</p>
+            <div class="cursos">
+                <a href="#" title="link to the course's page"><div class="curso" >
+                    <div class="superior" style="background-image: url(img/gardening.jpg)">
+                        <span>New</span>
+                    </div>
+                    
+                    <div class="inferior">
+                        <p class="tituloCurso">
+                            Gardening for beginners, part I: Succulent plants
+                        </p>
+                        <div class="datosCurso">
+                            <img src="img/lessons.svg" alt="number of lessons" width="10" height="10">
+                            <p>
+                            6 lessons</p>
+                            <img src="img/duration.svg" alt="duration of the lessons" width="10" height="10">
+                            <p>
+                            3h 30m</p>
+                            <img src="img/level.svg" alt="level" width="10" height="10">
+                            <p>
+                            Beginner</p>
+                        </div>
+                    </div>
+                </div></a>
+                <a href="#" title="link to the course's page"><div class="curso" >
+                    <div class="superior" style="background-image: url(img/painting.jpg)">
+                        <span class="best">Best seller</span>
+                    </div>
+                    <div class="inferior">
+                        <p class="tituloCurso">
+                            How to paint from beginner to master. Oil technique 
+                        </p>
+                        <div class="datosCurso">
+                            <img src="img/lessons.svg" alt="number of lessons" width="10" height="10">
+                            <p>
+                            6 lessons</p>
+                            <img src="img/duration.svg" alt="duration of the lessons" width="10" height="10">
+                            <p>
+                            3h 30m</p>
+                            <img src="img/level.svg" alt="level" width="10" height="10">
+                            <p>
+                            Beginner</p>
+                        </div>
+                    </div>
+                </div></a>
+                <a href="#" title="link to the course's page"><div class="curso" >
+                    <div class="superior" style="background-image: url(img/wood-carving.jpg)">
+                    </div>
+                    <div class="inferior">
+                        <p class="tituloCurso">
+                            Wood carving project - whittle and owl
+                        </p>
+                        <div class="datosCurso">
+                            <img src="img/lessons.svg" alt="number of lessons" width="10" height="10">
+                            <p>
+                            6 lessons</p>
+                            <img src="img/duration.svg" alt="duration of the lessons" width="10" height="10">
+                            <p>
+                            3h 30m</p>
+                            <img src="img/level.svg" alt="level" width="10" height="10">
+                            <p>
+                            Beginner</p>
+                        </div>
+                    </div>
+                </div></a>
+                <a href="#" title="link to the course's page"><div class="curso" >
+                    <div class="superior" style="background-image: url(img/knitting.jpg)">
+                    </div>
+                    <div class="inferior">
+                        <p class="tituloCurso">
+                            The complete guide to knitting
+                        </p>
+                        <div class="datosCurso">
+                            <img src="img/lessons.svg" alt="number of lessons" width="10" height="10">
+                            <p>
+                            6 lessons</p>
+                            <img src="img/duration.svg" alt="duration of the lessons" width="10" height="10">
+                            <p>
+                            3h 30m</p>
+                            <img src="img/level.svg" alt="level" width="10" height="10">
+                            <p>
+                            Beginner</p>
+                        </div>
+                    </div>
+                </div></a>
+                <a href="#" title="link to the course's page"><div class="curso" >
+                    <div class="superior" style="background-image: url(img/guitar.jpg)">
+                    </div>
+                    <div class="inferior">
+                        <p class="tituloCurso">
+                            Songs for Spanish and Classical Guitar
+                        </p>
+                        <div class="datosCurso">
+                            <img src="img/lessons.svg" alt="number of lessons" width="10" height="10">
+                            <p>
+                            6 lessons</p>
+                            <img src="img/duration.svg" alt="duration of the lessons" width="10" height="10">
+                            <p>
+                            3h 30m</p>
+                            <img src="img/level.svg" alt="level" width="10" height="10">
+                            <p>
+                            Beginner</p>
+                        </div>
+                    </div>
+                </div></a>
+                <a href="#" title="link to the course's page"><div class="curso" >
+                    <div class="superior" style="background-image: url(img/photography.jpg)">
+                    </div>
+                    <div class="inferior">
+                        <p class="tituloCurso">
+                            Travel photography: shoot and edit beautiful photos
+                        </p>
+                        <div class="datosCurso">
+                            <img src="img/lessons.svg" alt="number of lessons" width="10" height="10">
+                            <p>
+                            6 lessons</p>
+                            <img src="img/duration.svg" alt="duration of the lessons" width="10" height="10">
+                            <p>
+                            3h 30m</p>
+                            <img src="img/level.svg" alt="level" width="10" height="10">
+                            <p>
+                            Beginner</p>
+                        </div>
+                    </div>
+                </div></a>
+                <a href="#" title="link to the course's page"><div class="curso" >
+                    <div class="superior" style="background-image: url(img/ancient-history.jpg)">
+                        <span>New</span>
+                    </div>
+                    <div class="inferior">
+                        <p class="tituloCurso">
+                            Western civilization: the History of Ancient Greece
+                        </p>
+                        <div class="datosCurso">
+                            <img src="img/lessons.svg" alt="number of lessons" width="10" height="10">
+                            <p>
+                            6 lessons</p>
+                            <img src="img/duration.svg" alt="duration of the lessons" width="10" height="10">
+                            <p>
+                            3h 30m</p>
+                            <img src="img/level.svg" alt="level" width="10" height="10">
+                            <p>
+                            Beginner</p>
+                        </div>
+                    </div>
+                </div></a>
+                <a href="#" title="link to the course's page"><div class="curso" >
+                    <div class="superior" style="background-image: url(img/healthy-cooking.jpg)">
+                    </div>
+                    <div class="inferior">
+                        <p class="tituloCurso">
+                            Cook real food. How to make simple plant-based meals
+                        </p>
+                        <div class="datosCurso">
+                            <img src="img/lessons.svg" alt="number of lessons" width="10" height="10">
+                            <p>
+                            6 lessons</p>
+                            <img src="img/duration.svg" alt="duration of the lessons" width="10" height="10">
+                            <p>
+                            3h 30m</p>
+                            <img src="img/level.svg" alt="level" width="10" height="10">
+                            <p>
+                            Beginner</p>
+                        </div>
+                    </div>
+                </div></a>
+            </div>
+            <div class="center">
+                <a href="#">Browse all courses</a>
+            </div>
+        </section>
+        <section class="section-texto">
+            <div class="content texto-content">
+                <h3>Find the right learning path for you</h3>
+                <p>Match your goals to our programs, explore your options and map out your path to success.</p>
+                <div class="center">
+                    <a href="#">Get Started Now</a>
+                </div>
+            </div>
+        </section>
+        <section class="section-learning">
+            <div class="content learning-content"> 
+                <div class="izquierda">
+                    <h3>Online learning solutions that meet your needs</h3>
+                    <div class="textos">
+                        <div class="elemento">
+                            <div class="element1">
+                                <img src="img/leadership.svg" alt="" aria-hidden="true">  
+                            </div>
+                            <div>
+                                <p class="titulo">A wide selection of courses</p>
+                                <p class="texto">Choose amongst more than 100,000 video courses online, with new content every month.</p>
+                            </div>
+                        </div>
+                        <div class="elemento">
+                            <div class="element2">
+                                <img src="img/promotion.svg" alt="" aria-hidden="true">
+                            </div>
+                            <div>
+                                <p class="titulo">Subscribe to the best courses in Paideia</p>
+                                <p class="texto">With a Personal Plan, you will have access to the 8,000 top -ranked courses.</p>
+                            </div>
+                        </div>
+                        <div class="elemento">
+                            <div class="element3">
+                                <img src="img/rocket.svg" alt="" aria-hidden="true"> 
+                            </div>
+                            <div>
+                                <p class="titulo">Broaden your job opportunities</p>
+                                <p class="texto">With our technology and marketing courses you will take another step further in your career.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left">
+                        <a href="#">Resgister Now</a>
+                    </div>
+                </div>
+                <div class="derecha">
+                    <img src="img/student.jpg" alt="image of a student" aria-hidden="true" width="520" height="600">
+                </div>
+            </div>
+        </section>
+        <section class="section-category">
+            <div class="content category-content">
+                <h3>Top categories</h3>
+                <div class="categories">
+                    <a href="#" title="link to the gategory's page" class="category">
+                        <div>
+                            <p class="title">Digital marketing</p>
+                            <p>100+ courses</p>
+                        </div>
+                    </a>
+                    <a href="#" title="link to the gategory's page" class="category">
+                        <div>
+                            <p class="title">Web Development</p>
+                            <p>150+ courses</p>
+                        </div>
+                    </a>
+                    <a href="#" title="link to the gategory's page" class="category big">
+                        <div>
+                            <p class="title">Personal Development</p>
+                            <p>400+ courses</p>
+                        </div>
+                    </a>
+                    <a href="#" title="link to the gategory's page" class="category">
+                        <div>
+                            <p class="title">Photography</p>
+                            <p>200+ courses</p>
+                        </div>
+                    </a>
+                    <a href="#" title="link to the gategory's page" class="category">
+                        <div>
+                            <p class="title">Graphic Desig</p>
+                            <p>200+ courses</p>
+                        </div>
+                    </a>
+                    <a href="#" title="link to the gategory's page" class="category">
+                        <div>
+                            <p class="title">Social Sciences</p>
+                            <p>150+ courses</p>
+                        </div>
+                    </a>
+                    <a href="#" title="link to the gategory's page" class="category">
+                        <div>
+                            <p class="title">Arts & Humanities</p>
+                            <p>100+ courses</p>
+                        </div>
+                    </a>
+            </div>
+        </div>
+        </section>
+        <section class="section-instructor">
+            <div class="content instructor-content">
+                <div class="izquierda">
+                    <img src="img/instructor.jpg" alt="image of an instructor" aria-hidden="true" width="520" height="375">
+                </div>
+                <div class="derecha">
+                    <h3>Become an instructor</h3>
+                    <p>Join millions of people from around the world learning together. Online learning is as easy and natural as chatting.</p>
+                    <div class="right">
+                        <a href="#">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="section-footer">
+            <div class="content content-footer">
+                <div class="footer-area">
+                    <div class="suscribe">
+                        <p>SUBSCRIBE TO OUR NEWSLETTER</p>
+                        <form action="#" method="post">
+                            <input type="email" class="email" placeholder="Your Email">
+                            <button class="submit"><img src="img/arrow.-right.svg" title="submit"></button>
+                        </form>
+                        <div class="enlaces">
+                            <a href="#">Help</a>
+                            <a href="#">Privacy</a>
+                            <a href="#">Cookies</a>
+                            <a href="#">Security</a>
+                            <a href="#">Terms</a>
+                        </div>
+                    </div>
+                    <div class="logo">
+                        <img src="img/logo-paideia.svg" height="50" width="150" alt="logotipo Paideia que redirigue a la página principal">
+                        <p>Toll Free Customer Care <a href="tel:(00)2428443988">(00) 242 844 39 88</a></p>
+                        <p>Need live support?<a href=mailto:info@paideia.edu>info@paideia.edu</a></p>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <cite>Photos by <a href="https://www.pexels.com/es-es/foto/feliz-mujer-etnica-sentada-a-la-mesa-con-el-portatil-3769021/" target="_blank">Andrea Piacquadio</a>, 
+                        <a href="https://www.pexels.com/es-es/foto/persona-sosteniendo-vegetales-en-rodajas-2284166/" target="_blank">Maarten van den Heuvel</a>, 
+                        <a href="https://www.pexels.com/es-es/foto/foto-de-persona-sosteniendo-rollo-de-hilo-marron-3654772/" target="_blank">Caroline Feelgood</a>, 
+                        <a href="https://www.pexels.com/es-es/foto/triturar-madera-marron-175709/" target="_blank">Clem Onojeghuo</a>, 
+                        <a href="https://www.pexels.com/es-es/foto/plantas-suculentas-verdes-y-moradas-2132240/" target="_blank">Quang Nguyen Vinh</a>, 
+                        <a href="https://www.pexels.com/es-es/foto/fotografia-de-foco-superficial-de-pincel-102127/" target="_blank">Daian Gan</a>, 
+                        <a href="https://www.pexels.com/es-es/foto/templo-griego-antiguo-951531/" target="_blank">Jimmy Teoh</a>, 
+                        <a href="https://www.pexels.com/es-es/foto/fotografia-de-enfoque-selectivo-de-mujer-sosteniendo-camara-reflex-digital-1264210/" target="_blank">André Furtado</a>, 
+                        <a href="https://www.pexels.com/es-es/foto/hombre-en-chaqueta-de-traje-marron-con-anteojos-con-marco-negro-5212317/" target="_blank">Katerina Holmes</a> and 
+                        <a href="https://www.pexels.com/es-es/foto/feliz-mujer-negra-usando-laptop-para-trabajo-en-linea-5905713/" target="_blank">Stefan Scheiwhofer</a>. 
+
+                    </cite>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
